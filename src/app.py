@@ -660,4 +660,4 @@ def update_sampling(n_clicks, distribution, param_values, sample_size, group_siz
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run(debug=True)
